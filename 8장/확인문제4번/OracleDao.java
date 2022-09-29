@@ -1,11 +1,5 @@
 public class OracleDao implements DataAccessObject{
-    // public void dbWork(DataAccessObject dao){
-    //     select();
-    //     insert();
-    //     update();
-    //     delete();
-    // }
-    
+   
     public void select(){
         System.out.println("Oracle에서 검색");
     }
